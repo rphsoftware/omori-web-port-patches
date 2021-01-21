@@ -1,9 +1,0 @@
-4Q1
-2SS@0,o:localStorage.setItem("__DATAMANAGER_WRITE_TO_FILE/"J@2bF,5:
-}
-P@2RW,n@2XK,o:localStorage.setItem("__DATAMANAGER_WRITE_TO_FILE/"J@2bF,o:
-    if (!!callback) {
-        callback();
-    }x@2dH,s:if (localStorage.getItem("__DATAMANAGER_WRITE_TO_FILE/"W@2g6,11:localStorage.getItem("__DATAMANAGER_WRITE_TO_FILE/" + filename)
-T@ml,9:0;
-    }1qS@2j2,37TCeV;
