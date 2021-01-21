@@ -1,0 +1,4 @@
+KmA
+6U7@0,L:filename.toLowerCase(c@7TC,Q@7YW,2I@89O,7b@6Xr,I:path.toLowerCase()J@89T,Q@8Ez,G@Khl,1L@8Fc,lg@6h6,L:filename.toLowerCase(fi@7TC,8:filenamed@7TD,kR@88y,K:bgm = bgm.toLowerCasJ@JQT,1P@9Bg,Hh@8uv,x:bgm && typeof bgm == "string")
+        bgm = bgm.toLowerCasJ@JQT,KD@9Bg,K:bgs = bgs.toLowerCasJ@JQT,1P@9bM,4s@9XQ,y:bgs && typeof bgs === "string")
+        bgs = bgs.toLowerCasJ@JQT,K6@9bM,J:me = me.toLowerCaseI@AbV,GV@9va,M:se = se.toLowerCase();AOW@AAz,2i@KgS,I:let loadname = namG@1JG,1C@Kj9,i:let buff = window["data/js/plugins"][loadnameG@1xl,N@ArB,3:namG@1JG,1y@KnB,R:`/*${loadname}*/\n${buff}`;1l@Kpf,3_ovIh;
