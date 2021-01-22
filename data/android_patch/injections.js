@@ -1,6 +1,20 @@
 console.log("Waiting for the game to finish loading before injecting...");
 
 (function() {
+    function toggleFullScreen() {
+        var doc = window.document;
+        var docEl = doc.documentElement;
+      
+        var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
+        var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
+      
+        if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
+          requestFullScreen.call(docEl);
+        }
+        else {
+          cancelFullScreen.call(doc);
+        }
+      }
 let i = setInterval(function() {
     if (window.fullSetupComplete) {
         console.log("Injecting mod menu button");
@@ -79,6 +93,16 @@ let i = setInterval(function() {
                 document.body.appendChild(killmm);
 
                 mme.push(killmm);
+
+                let fs = document.createElement("div");
+                fs.style = "position: fixed; top: 190px; right: 0; background: #0f08; color: white; padding: 32px; z-index: 1999999;";
+                fs.innerText = `Toggle full screen`;
+                fs.addEventListener("click", function() {
+                    toggleFullScreen();
+                })
+                document.body.appendChild(fs);
+
+                mme.push(fs);
 
                 let nukeconfig = document.createElement("div");
                 nukeconfig.style = "position: fixed; top: 70px; right: 0; background: #f008; color: white; padding: 32px; z-index: 199999;";
