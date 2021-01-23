@@ -1,15 +1,16 @@
-MJP
-23~@0,C:return true;G@EQl,V@2Az,C:return true;f@2HO,C:return truell@2NV,6:return1h@EaV,4:IMAG1c@AY0,4:/*ImR@Q8w,13o@2Z0,h:this.initNWScreen();
-			console.log("!!!!!"83@3ls,V@3v4,1g@Fr0,4dQ@44C,6:returnI@75F,Y@8ky,6:returnI@75F,X@8o~,6:returnI@75F,1xv@8sr,S@A~0,1:;8Wq@A~U,bS@Mtr,T:let folder = "LOCALAPPDATA/";12@NYX,M:let folder = "OMORI/";q@Na_,I@O1j,15: = {};
-			if (localStorage.getItem("OMORI_DATA/CUTSCENE.json")) {
-	L@NtR,~: = JSON.parse(localStorage.getItem("OMORI_DATA/CUTSCENE.json"))O@BDW,y:save() {
-			localStorage.setItem("OMORI_DATA/CUTSCENE.json",Z@Nmv,K@BFF,3v@Nr9,n:localStorage.removeItem("OMORI_DATA/CUTSCENE.json"K@BFF,1Da@O1N,K:yaml = window.JSYAML1D@PHX,c:window["gamefiles/data"]["Notes.PLUTO"]G@Q_0,j@PKR,12@PLK,q:noteBuffer = window["gamefiles/data"]["Quests.PLUTO"]G@Q_0,B:dataQuests'I@POV,H@PK0,3:}
-5I@PPF,2:
-T@PYe,V:window["gamefiles/data"][src]);H@C9F,P@PZh,1i@P_F,1P@Q07,1J@PeD,R@PeW,i:JSON.parse(window["gamefiles/data"][filename]K@Pv~,W@PkH,K:Graphics.endLoading(Q@Pe0,7:true;
-2Z@Plj,J:console.log(mapId);1J@PoC,F:let mapName = `t@Prj,z:let buffer = window["gamedata/maps"][mapName.toLowerCase()];
-H@C9F,_:_tempTiledData = JSON.parse(buffer);H@C9F,L@PxU,2:		_@Px~,E4@Pyf,1G:yaml = window.JSYAML;
+MNC
+23~@0,C:return true;k@2Aj,C:return true;f@2HO,C:return true;l@2NV,6:return1h@DgT,4:IMAG1c@AY0,7:/*ImageO@PHF,13o@2Z0,8L@3la,V@3v4,1f@Cf0,4dR@44B,P@F9F,X@8kz,P@F9F,W@8p0,P@F9F,1xu@8ss,S@A~0,1:;8aQ@A~U,bS@MyT,T:let folder = "LOCALAPPDATA/";12@Nc8,R@Ndd,l@NfG,O@Nl0,t:
+			if (localStorage.getItem("OMORI_DATA/CUTSCENE.json"G@IKG,1B:cutsceneData = JSON.parse(localStorage.getItem("OMORI_DATA/CUTSCENE.json"))O@BDW,y:save() {
+			localStorage.setItem("OMORI_DATA/CUTSCENE.json",Z@NrX,K@GZW,3v@Nvl,n:localStorage.removeItem("OMORI_DATA/CUTSCENE.json"L@GZW,1D_@O5~,K:yaml = window.JSYAML1D@PM8,c:window["gamefiles/data"]["Notes.PLUTO"]z@POn,12@PPw,1F:noteBuffer = window["gamefiles/data"]["Quests.PLUTO"];
+				window['$dataQuestsT@PPJ,A:);
+			}
+X@IIG,4m@PUN,2:
+T@PcG,V:window["gamefiles/data"][src]);H@C9F,J:onLoad(window[name]K@GZW,1V@Pe4,1P@Q4j,1J@Pip,2:
+_@Pni,Y:window["gamefiles/data"][filename]Y@Pc~,E:"$dataMap"])
+W@PpL,I@Pik,7:true;
+3m@PqL,F:let mapName = `t@PwL,z:let buffer = window["gamedata/maps"][mapName.toLowerCase()];
+H@C9F,S@P~v,8:buffer);H@C9F,I:loadTilesetData();H@C9F,K:_tiledLoaded = true;E8@Q2D,1C:yaml = window.JSYAML;
 
-			var dirList = Object.keys(window["languages/en"]);
-N@QLG,t@QGj,2I:var format = "."+dirList[i].split(".")[dirList[i].split(".").length - 1];    
+			var dirList = Object.keys(window["languages/en"]1J@QKv,2I:var format = "."+dirList[i].split(".")[dirList[i].split(".").length - 1];    
 				// Get Filename
-				var filename = directory.split(".HERO")[0]b@QJ0,p@QLJ,X:window["languages/en"][directory]H@63k,6v@QMc,O:let yaml = window.JSYAMLW@QZT,c:window["gamefiles/data"]["Atlas.PLUTO"]s7@QZ~,TBA1j;
+				var filename = directory.split(".HERO")[0]b@QNc,p@QPv,X:window["languages/en"][directory]H@63k,6v@QRE,O:let yaml = window.JSYAMLW@Qd4,c:window["gamefiles/data"]["Atlas.PLUTO"]s7@Qdb,2cUyfW;
